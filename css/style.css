@@ -180,8 +180,20 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 .slider_list_item_sec li{font-size:16px;color:#757575;margin-top:8px}
 .slider_list_item_sec li::marker{color:#b79765}
 @media screen and (max-width:600px){
-.treatment_approch_box{max-height:260px;height:250px}
+   .slider_list_item_sec li{font-size:16px;color:#757575;margin-top:2px}
+.treatment_approch_box{max-height:300px;height:300px}
 }
+
+@media screen and (max-width:380px){
+   .slider_list_item_sec li{font-size:16px;color:#757575;margin-top:2px}
+.treatment_approch_box{max-height:320px;height:315px}
+}
+
+@media screen and (max-width:365px){
+.treatment_approch_box{max-height:340px;height:340px}
+}
+
+
 
 /*==========================================*/
 /* FAQ css*/
