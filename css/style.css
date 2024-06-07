@@ -174,25 +174,77 @@ header{background:#383838;min-height:60px;display:-webkit-box;display:-ms-flexbo
 #treatment_slider .owl-nav{text-align:center!important;margin-top:0;top:0;right:0;position:relative}
 #treatment_slider .owl-nav button{font-size:30px!important;margin:0 7px;color:#000!important}
 }
-.treatment_approch_box{padding-bottom:20px;background:#fff;box-shadow:0 2px 8px rgb(194 194 194 / 30%)}
-.treatment_heding_cls{color:#212121;font-weight:500;font-size:21px;margin-top:20px;margin-bottom:0}
-.slider_list_item_sec{margin-bottom:0}
+.treatment_approch_box{box-shadow:0 2px 8px rgb(194 194 194 / 30%); border: none; border-radius: 0;}
+.treatment_heding_cls{color:#212121;font-weight:500;font-size:21px;margin-bottom:0;}
+.slider_list_item_sec{margin-bottom:0; padding-inline-start: 20px;}
 .slider_list_item_sec li{font-size:16px;color:#757575;margin-top:8px}
 .slider_list_item_sec li::marker{color:#b79765}
+.treatment_approch_box .card-body{
+   padding-left: 0;
+}
+
+.treatment_new_slide_box{
+   box-shadow:0 2px 8px rgb(194 194 194 / 30%);
+   padding: 20px;
+   height: 250px;
+}
+
+@media screen and (max-width:1600px){
+  .treatment_new_slide_box{
+   height: 300px;
+  }
+}
+
+@media screen and (max-width:1480px){
+  .treatment_new_slide_box{
+   height: 310px;
+  }
+}
+
+@media screen and (max-width:1280px){
+  .treatment_new_slide_box{
+   height: 360px;
+  }
+}
+
+@media screen and (max-width:992px){
+.treatment_approch_box .card-body{
+      padding:1.25rem;
+   }
+}
+ 
+@media screen and (max-width:820px){
+  .treatment_new_slide_box{
+   height: 250px;
+  }
+}
+
 @media screen and (max-width:600px){
    .slider_list_item_sec li{font-size:16px;color:#757575;margin-top:2px}
-.treatment_approch_box{max-height:300px;height:300px}
+   .treatment_new_slide_box{ height: 300px;}
+}
+
+@media screen and (max-width:450px){
+  .treatment_new_slide_box{ height: 340px;}
 }
 
 @media screen and (max-width:380px){
    .slider_list_item_sec li{font-size:16px;color:#757575;margin-top:2px}
-.treatment_approch_box{max-height:320px;height:315px}
 }
 
 @media screen and (max-width:365px){
-.treatment_approch_box{max-height:340px;height:340px}
+    .treatment_new_slide_box{ height: 330px;}
 }
 
+
+.homepathy-box{
+   background: url(../images/homeopathy.webp) bottom center no-repeat;
+    background-size: cover;
+}
+
+.woodslamp-box{
+
+}
 
 
 /*==========================================*/
